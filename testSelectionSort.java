@@ -48,7 +48,7 @@ public class testSelectionSort {
            int[] arr = new int[] { -8, 9, 0, -7, 10, 2, 1 }; // changed elements here
         SelectionSort selectionSort = new SelectionSort();
         int[] sortedArr = selectionSort.basicSelectionSort(arr);
-        int[] expectedArr = new int[] { -8, -7, 0, 0, 2, 9, 1 }; //changed elements here
+        int[] expectedArr = new int[] { -8, -7, 0, 0, 1, 2, 9 }; //changed elements here
         assertArrayEquals(expectedArr, sortedArr);
 
         // Print sorted array
