@@ -15,10 +15,10 @@ public class testSelectionSort {
     }
 
     public void testPositive() {
-        int[] arr = new int[] { 8, 9, 7, 10, 2 };
+        int[] arr = new int[] { 8, 9, 7, 10, 3 }; //change here
         SelectionSort selectionSort = new SelectionSort();
         int[] sortedArr = selectionSort.basicSelectionSort(arr);
-        int[] expectedArr = new int[] { 2, 7, 8, 9, 10 };
+        int[] expectedArr = new int[] { 3, 7, 8, 9, 10 };
         assertArrayEquals(expectedArr, sortedArr);
 
         // Print sorted array
